@@ -2,7 +2,7 @@
 
 echo "build all jar Started .... "
 
-cd ../../../
+cd ../../
 rootPATH="$(pwd)"
 echo "RootPath value is ............> $rootPATH"
 

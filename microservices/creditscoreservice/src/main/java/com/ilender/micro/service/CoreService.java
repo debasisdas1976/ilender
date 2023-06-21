@@ -1,7 +1,6 @@
 package com.ilender.micro.service;
 
 import com.ilender.micro.common.CommonConstants;
-import com.ilender.micro.common.LoadManager;
 import com.ilender.micro.common.LogUtil;
 import com.ilender.micro.model.CreditScoreRequestInfo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,8 +16,6 @@ public class CoreService {
 
     private static final Logger logger = LoggerFactory.getLogger(CommonConstants.LOGDNA_LOGGER);
 
-    @Value("${prop.humio.url}")
-    private String humioUrl;
     
     @Autowired
     LogService logService;
