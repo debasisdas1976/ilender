@@ -2,13 +2,7 @@
 
 Need to update few properties in the `config.sh`.
 
-#### 1. Update API_URL Property
-
-Update the API_URL property with application url.
-
-```
-API_URL=http://1.1.1.1:30600
-```
+#### 1. Update API_URL and API_URL_CREDIT_SCORE Properties in config.sh
 
 To get the Application url, login to the kubernetes environment. Execute the following commands
 ```
