@@ -17,8 +17,8 @@ BROKER="iaf-system-kafka-bootstrap-cp4waiops.itzroks-5500028307-moy5le-6ccd7f378
 ##### ---------------------------------------------------------------
 ###### Application URL
 ##### ---------------------------------------------------------------
-API_URL=http://ilender-frontweb-ilender-ns.turbonomic-demo-2bef1f4b4097001da9502000c44fc2b2-0000.us-east.containers.appdomain.cloud
-API_URL_CREDIT_SCORE=ilender-creditscore-ilender-ns.turbonomic-demo-2bef1f4b4097001da9502000c44fc2b2-0000.us-east.containers.appdomain.cloud/creditscore
+API_URL=http://ilender-frontweb-service-route-url
+API_URL_CREDIT_SCORE=http://ilender-creditscore-service-route-url/creditscore
 
 
 ##### ---------------------------------------------------------------
