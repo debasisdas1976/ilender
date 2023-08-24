@@ -10,15 +10,9 @@ Update the API_URL property with application url.
 API_URL=http://1.1.1.1:30600
 ```
 
-Refer : [20-application-installation](../20-application-installation) to get application url
-
-#### 2. Update API_URL_CREDIT_SCORE Url
-
-Update the API_URL_CREDIT_SCORE property with creditscore service url.
-
+To get the Application url, login to the kubernetes environment. Execute the following commands
 ```
-API_URL_CREDIT_SCORE=http://1.1.1.1:30601
+oc get routes -n ilender-ns
 ```
-
-Refer : [20-application-installation](../20-application-installation) to get creditscore url
-
+Copy the service route url of ilender-frontweb and set it as API_URL
+Copy the service route url of ilender-creditscore and set it as API_URL_CREDIT_SCORE
